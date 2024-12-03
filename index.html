@@ -184,7 +184,7 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3"> Overall Approach</h2>
+      <h2 class="title is-3 has-text-centered"> Overall Approach</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           
@@ -207,35 +207,90 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">🧪 Results</h2>
+      <h2 class="title is-3 has-text-centered">OOD Comparison</h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <!-- First Image -->
           <div class="publication-image" id="image-container-1">
             <img src="static/images/fig_quant.png" alt="method" style="max-width: 50%;">
+            <h3>
+              Comparison of our trackers with others on the AVisT dataset on a CPU. We show the success score (AUC) (vertical axis), speed (horizontal axis), and relative number of FLOPs (circles) of the trackers. Our trackers outperform other efficient trackers in terms of both speed and accuracy.
+            </h3>
+          </div> 
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3  has-text-centered">Dynamic Test-Time Adaptation </h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- First Image -->
+          <div class="publication-image" id="image-container-1">
+            <img src="static/images/table_4.png" alt="method" style="max-width: 70%;">
+            <h3>
+              Comparative study on test-time adaptation (TTA) approaches on AVisT as it involves various extreme distribution shifts with real-world corruptions and ITB as the next most challenging benchmark.
+            </h3>
+          </div>    
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">VOT benchmark Comparison</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- First Image -->  
+          <div class="publication-image" id="image-container-1">
             <img src="static/images/table_1.png" alt="method">
             <h3>
               Comparative study on VOT2020 Benchmark. 
             </h3>
           </div>    
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">AVisT, NFS30, UAV123, TrackingNet, GOT-10k, and LaSOT benchmarks</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- First Image -->   
           <div class="publication-image" id="image-container-1">
             <img src="static/images/table_2.png" alt="method">
             <h3>
               Comparative Study with other SOTA approaches on various benchmarks including AVisT, NFS30, UAV123, TrackingNet, GOT-10k, and LaSOT.
             </h3>
           </div>   
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">ITB, OTB, TC128, and DTB70 benchmarks</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- First Image -->     
           <div class="publication-image" id="image-container-1">
             <img src="static/images/table_3.png" alt="method">
             <h3>
               Comparative study on ITB, OTB, TC128, and DTB70 benchmarks in terms of their AUC score. 
             </h3>
           </div> 
-          <div class="publication-image" id="image-container-1">
-            <img src="static/images/table_4.png" alt="method">
-            <h3>
-              Comparative study on test-time adaptation (TTA) approaches on AVisT as it involves various extreme distribution shifts with real-world corruptions and ITB as the next most challenging benchmark.
-            </h3>
-          </div>   
       </div>
     </div>
   </div>
@@ -295,7 +350,7 @@ processor = taxabind.get_image_processor()</code></pre>
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
+    <div class="container is-max-desktop content has-text-centered">
       <h2 class="title">BibTeX</h2>
       <pre><code>@inproceedings{zaveri2025siamabc,
     title={Improving Accuracy and Generalization for Efficient Visual Tracking},
